@@ -1,0 +1,59 @@
+/* CSS Document*/
+
+.page{
+	display: relative;
+	font-family: georgia;
+}
+
+.sidebar{
+	position: absolute;
+	left: 2.5%;
+	width: 220px;
+	height: 220%;
+	background-color: #F5F5DC;
+}
+
+.navigation{
+	list-style-type: none;
+	text-align: left;
+	line-height: 3em;
+	text-shadow: 0.5px 0.5px #F5F5DC;
+	padding: 0px 5px;
+}
+
+.content{
+	position: absolute;
+	left: 280px;
+}
+
+.header{
+	text-indent: 45%;
+	color: rgb(80, 59, 27);
+}
+
+a{
+	text-decoration: none;
+	color: rgb(80, 59, 27);
+	font-weight: bold;
+}
+
+.content-table{
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size:0.8em;
+	margin-right: 10px;
+}
+
+.content-table thead tr{
+	background-color: rgb(80, 59, 27);
+	color: white;
+}
+
+.content-table th,
+.content-table td{
+	padding: 12px 15px;
+}
+
+.content-table tr{
+	border-bottom: 1px solid rgb(222, 184, 135)
+}
